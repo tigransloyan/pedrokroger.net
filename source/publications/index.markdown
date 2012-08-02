@@ -1,6 +1,5 @@
 ---
-comments: true
-date: 2010-10-11 22:25:51
+comments: false
 layout: page
 slug: publications
 title: Publications

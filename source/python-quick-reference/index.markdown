@@ -1,6 +1,5 @@
 ---
 comments: false
-date: 2010-08-12 13:15:11
 layout: page
 slug: python-quick-reference
 title: Python Quick Reference

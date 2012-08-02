@@ -1,6 +1,5 @@
 ---
 comments: false
-date: 2010-10-11 23:05:18
 layout: page
 slug: compositions
 title: Compositions
