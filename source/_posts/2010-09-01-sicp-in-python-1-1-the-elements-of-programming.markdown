@@ -3,7 +3,7 @@ comments: true
 date: 2010-09-01 00:00:26
 layout: post
 slug: sicp-in-python-1-1-the-elements-of-programming
-title: SICP in Python: 1.1 The Elements of Programming
+title: 'SICP in Python: 1.1 The Elements of Programming'
 wordpress_id: 282
 categories:
 - python
@@ -37,28 +37,34 @@ combination of simple ideas to form complex ideas:
   * **means of abstraction:** "by which compound elements can be named
       and manipulated as units".
 
-**def** is the simplest mean of abstraction. The following code creates a function and associates it with a name:
-    
+`def` is the simplest mean of abstraction. The following code
+  creates a function and associates it with a name:
+
+``` python
     def square(x):
         return x * x
+```
 
 It's important to make the distinction of the act of creating a
 function and naming it. We can create a function without a name (an
 anonymous function) with `lambda`:
 
+``` python
     lambda x: x * x
-
+```
 
 And we can assign it to a variable, giving it a name:
     
+``` python
     square2 = lambda x: x * x
-
+```
 
 And, in fact, we can see (with the help of the
 [bytecode disassembler module](http://docs.python.org/library/dis.html))
 that Python will generate the same bytecode for both `square` and
 `square2`:
     
+``` python
     >>> import dis
     >>> dis.dis(square)
       1           0 LOAD_FAST                0 (x)
@@ -71,15 +77,18 @@ that Python will generate the same bytecode for both `square` and
                   3 LOAD_FAST                0 (x)
                   6 BINARY_MULTIPLY
                   7 RETURN_VALUE
-
+```
 
 Having defined _square, _we can use it in combinations:
 
+``` python
     square(2 + 5)
     square(square(7 + square (3)))
+```
 
 And, naturally, we can use `square` as a building block:
     
+``` python
     def sum_of_squares(x, y):
         return square(x) + square(y)
     
@@ -87,6 +96,7 @@ And, naturally, we can use `square` as a building block:
     
     def f(a):
         return sum_of_squares(a + 1, a * 2)
+```
 
 The association between names and values, such as the name of a
 function, is saved in a place called the `environment`. Chapter 3 will
@@ -157,6 +167,7 @@ about cheesy late-night infomercials with a function named like this
 ;-)). The first implementation follows the mathematical definition and
 uses multiple predicates:
     
+``` python
     def myabs(x):
         if x > 0:
             return x
@@ -164,19 +175,24 @@ uses multiple predicates:
             return x
         elif x < 0:
             return x
+```
 
 This is unnecessarily long and can be shortened as:
     
+``` python
     def myabs(x):
         if x < 0:
             return -x
         else:
             return x
+```
 
 And it can be even shorter by using the ternary operator (new in Python 2.5):
     
+``` python
     def myabs(x):
         return -x if x < 0 else x
+```
 
 This sub-section also shows logical operators such as _and_, _or_, and
 _not_. For instance, in Scheme the expression 5 < x < 10 would be
@@ -201,7 +217,7 @@ understand how it works. Let's copy the function's body:
 
 If _b_ is greater than 0, the conditional expression will return the
 _+_ (addition) function, otherwise it'll return the - (subtraction)
-function. In Scheme + and - are functions, just like _sqrt. _Let's
+function. In Scheme + and - are functions, just like `sqrt`. Let's
 suppose that _b_ is greater than 0 and the conditional expression will
 return +. We substitute + for the conditional expression:
 
@@ -214,21 +230,25 @@ can create them at runtime, pass them as arguments to other functions,
 and return them as values.
 
 Functions are also first-class in Python, but + and - are not
-functions. We can access Python's basic operators with the _operator_
-module. For instance, _operator.add(2, 2)_ is equivalent to the
-expression _2 + 2_. So, we can write the Scheme code above in Python
+functions. We can access Python's basic operators with the `operator`
+module. For instance, `operator.add(2, 2)` is equivalent to the
+expression `2 + 2`. So, we can write the Scheme code above in Python
 as:
 
+``` python
     from operator import add, sub
     
     def a_plus_abs_b(a, b):
         return (add if b > 0 else sub)(a, b)
-
+```
 
 ### Exercise 1.5
 
-This exercise asks the reader to describe the behavior of the following code if the interpreter uses applicative order evaluation and normal order evaluation.
+This exercise asks the reader to describe the behavior of the
+following code if the interpreter uses applicative order evaluation
+and normal order evaluation.
     
+``` python
     def p():
         return p()
     
@@ -236,12 +256,13 @@ This exercise asks the reader to describe the behavior of the following code if 
         return 0 if x == 0 else y
     
     test(0, p())
+```
 
 In applicative order evaluation, the interpreter will enter in an
-infinite loop, regardless of the value of _test_'s first argument,
+infinite loop, regardless of the value of `test`'s first argument,
 because both operands will be evaluated before the function is called
 (line 7). With normal order evaluation, the interpreter will evaluate
-only what is necessary, so if the first argument of _test_ is 0, it'll
+only what is necessary, so if the first argument of `test` is 0, it'll
 return 0 because the second argument will not be evaluated.
 
 
@@ -250,56 +271,65 @@ return 0 because the second argument will not be evaluated.
 One way to calculate square roots is by using Newton's method of
 successive approximations. We start with a guess _g_ for the square
 root of a number _x_ and calculate a better guess by averaging _g_
-with $latex x/g$, or:
+with _x/g_, or:
 
-[latex size="2"]G=\frac{g+x/g}{2}[/latex]
+![](/images/2010/09/square-root.png)
 
 The following procedure tests if the guess we have is good enough for
 the number _x_ (the radicand) we want to compute the square root. If
 not it'll keep trying to improve the guess until it's good enough:
     
+``` python
     def sqrt_iter(guess, x):
         if is_good_enough(guess, x):
             return guess
         else:
             return sqrt_iter(improve(guess, x), x)
+```
 
 To improve a guess we average it by the number _x_ divided by the guess:
     
+``` python
     def improve(guess, x):
         return average(guess, x/guess)
+```
 
 Average is easy enough to define:
     
+``` python
     def average(x, y):
         return (x + y)/2
+```
 
-Of course, we need to define _is_good_enough_. A basic test is to see
+Of course, we need to define `is_good_enough`. A basic test is to see
 if the square of the guess minus the original number _x_ is smaller
 than some threshold (we use 0.001). This is not a good test for very
 small and large numbers (see exercise 1.7 in the book) but will do for
 a first try:
     
+``` python
     def is_good_enough(guess, x):
         return abs(square(guess) - x) < 0.001
+```
 
 Finally, we need to start at some point. We begin with 1.0 as a guess:
 
-    
+``` python
     def sqrt(x):
         return sqrt_iter(1.0, x)
-
+```
 
 ## Procedures as black-box abstractions
 
 One problem with our implementation of `sqrt` is that functions like
-`is_good_enough_, `sqrt_iter_, and _improve` are cluttering the global
+`is_good_enough`, `sqrt_iter` and `improve` are cluttering the global
 namespace. It's very important to decompose a problem in sub-parts
 like we did, were each function does only one thing, but it's also
 important to be able to group things that are not going to be used in
 other contexts (like `improve` and `sqrt_iter`). One solution is to
 nest the procedures in one `block structure`:
 
+``` python
     def sqrt(x):
         def is_good_enough(guess, x):
             return abs(square(guess) - x) < 0.001
@@ -314,6 +344,7 @@ nest the procedures in one `block structure`:
                 return sqrt_iter(improve(guess, x), x)
     
         return sqrt_iter(1.0, x)
+```
 
 Now the functions `sqrt_iter`, `is_good_enough`, and `improve` are
 internal to _sqrt _and are not exposed to other programmers.
@@ -327,6 +358,7 @@ will get the value of _x_ from the enclosing scope_._ This is an
 example of
 [lexical scoping](http://en.wikipedia.org/wiki/Scope_(programming)#Lexical_scoping):
 
+``` python
     def sqrt(x):
         def is_good_enough(guess):
             return abs(square(guess) - x) < 0.001
@@ -341,6 +373,7 @@ example of
                 return sqrt_iter(improve(guess))
     
         return sqrt_iter(1.0)
+```
 
 ## Summary
 
