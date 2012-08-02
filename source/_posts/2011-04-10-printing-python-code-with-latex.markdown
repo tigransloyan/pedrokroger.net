@@ -61,8 +61,8 @@ are the options I like to customize:
 
 
 Options like tabsize and showstringspace are self-explanatory. The
-option formfeed=\newpage will replace the formfeed character by the
-LaTeX command \newpage, creating a new page at that point. Sometimes I
+option `formfeed=\newpage` will replace the formfeed character by the
+LaTeX command `\newpage`, creating a new page at that point. Sometimes I
 put some line feed characters in my code so I can do things like
 [narrowing to a page] in Emacs. Emacs shows line feed characters as
 `^L`, as you can see here:

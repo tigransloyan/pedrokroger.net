@@ -48,7 +48,7 @@ With this macro I can create each section with a command like
 Finally, I used the [dirtree package] to display the built-in
 exceptions hierarchy as a tree:
 
-![Built-in exceptions as a tree](http://images.pedrokroger.net/ex-built-in-exceptions.png)
+![Built-in exceptions as a tree](/images/2010/08/ex-built-in-exceptions.png)
 
 I like using something like LaTeX and dirtree because I can copy the
 exception hierarchy from the Python documentation and have LaTeX
