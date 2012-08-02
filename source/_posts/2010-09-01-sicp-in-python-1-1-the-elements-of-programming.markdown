@@ -11,8 +11,7 @@ categories:
 ---
 
 I'm writing a series of posts about SICP in Python. You can read more
-about the reasoning in the
-[introductory post](http://pedrokroger.net/blog/2010/08/sicp-in-python/).
+about the reasoning in the [introductory post].
 
 The first chapter is about building abstractions with functions. I
 think it's remarkable that a book for beginners (pretty smart
@@ -60,9 +59,8 @@ And we can assign it to a variable, giving it a name:
 ```
 
 And, in fact, we can see (with the help of the
-[bytecode disassembler module](http://docs.python.org/library/dis.html))
-that Python will generate the same bytecode for both `square` and
-`square2`:
+[bytecode disassembler module]) that Python will generate the same
+bytecode for both `square` and `square2`:
     
 ``` python
     >>> import dis
@@ -113,10 +111,9 @@ To evaluate combinations we follow a recursive rule (quoted verbatim):
   subexpression (the operator) to the arguments that are the values of
   the other subexpressions (the operands).
 
-The
-[substitution model](http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.5)
-is a simple model to help us understand what happens during
-evaluation. To evaluate procedures we have the following rule:
+The [substitution model] is a simple model to help us understand what
+happens during evaluation. To evaluate procedures we have the
+following rule:
 
 > To apply a compound procedure to arguments, evaluate the body of the
   procedure with each formal parameter replaced by the corresponding
@@ -135,10 +132,8 @@ we defined previously. The function `f` is defined in terms of
 defined as the multiplication of a number by itself. In the evaluation
 method on the left, an expression such as 5+1 is evaluated and applied
 immediately. This method of evaluation is known as
-[applicative order evaluation](http://en.wikipedia.org/wiki/Evaluation_strategy#Applicative_order)
-(a kind
-of [strict evaluation](http://en.wikipedia.org/wiki/Strict_evaluation),
-used in most programming languages, inclusive Python and Scheme). The
+[applicative order evaluation] (a kind of [strict evaluation], used in
+most programming languages, inclusive Python and Scheme). The
 evaluation method on the right only evaluates an expression when
 needed. It'll fully expand all function calls first, and then evaluate
 what's left. This is known as _normal order evaluation_. Compare the
@@ -224,8 +219,7 @@ return +. We substitute + for the conditional expression:
     (+ a b)
 
 The resulting expression is just the sum of _a_ and _b_. This kind of
-thing is possible because in Scheme functions are
-[first-class](http://en.wikipedia.org/wiki/First-class_function); we
+thing is possible because in Scheme functions are [first-class]; we
 can create them at runtime, pass them as arguments to other functions,
 and return them as values.
 
@@ -355,8 +349,7 @@ the scope of `sqrt` we don't need to pass _x_ explicitly as as
 argument to these functions. We can rewrite the code to make _x_ a
 free variable inside these functions. In this case the interpreter
 will get the value of _x_ from the enclosing scope_._ This is an
-example of
-[lexical scoping](http://en.wikipedia.org/wiki/Scope_(programming)#Lexical_scoping):
+example of [lexical scoping]:
 
 ``` python
     def sqrt(x):
@@ -386,3 +379,11 @@ computer science.
 
 The notes for section 1.2 will come soon. Meanwhile, feel free to post
 suggestions and questions in the comments.
+
+[introductory post]: /2010/08/sicp-in-python/
+[bytecode disassembler module]: http://docs.python.org/library/dis.html
+[substitution model]: http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.5
+[applicative order evaluation]: http://en.wikipedia.org/wiki/Evaluation_strategy#Applicative_order
+[strict evaluation]: http://en.wikipedia.org/wiki/Strict_evaluation
+[first-class]: http://en.wikipedia.org/wiki/First-class_function
+[lexical scoping]: http://en.wikipedia.org/wiki/Scope_(programming#Lexical_scoping)
