@@ -87,6 +87,7 @@ Having defined _square, _we can use it in combinations:
 And, naturally, we can use `square` as a building block:
     
 ``` python
+
     def sum_of_squares(x, y):
         return square(x) + square(y)
     
@@ -324,6 +325,7 @@ other contexts (like `improve` and `sqrt_iter`). One solution is to
 nest the procedures in one `block structure`:
 
 ``` python
+
     def sqrt(x):
         def is_good_enough(guess, x):
             return abs(square(guess) - x) < 0.001
