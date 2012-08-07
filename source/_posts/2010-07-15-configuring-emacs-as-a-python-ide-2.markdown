@@ -457,49 +457,49 @@ stay tuned. Meanwhile, what do you use to develop python code?
 
 <!-- Links -->
 
-[Download Yasnippet]: (http://yasnippet.googlecode.com/files/yasnippet-bundle-0.6.1c.el.tgz)
-[Emacs Wiki]: (http://www.emacswiki.org/emacs/PrettySymbol)
-[PEP8 style guide]: (http://www.python.org/dev/peps/pep-0008/)
-[Yasnippet]: (http://code.google.com/p/yasnippet/)
-[anything-ipython.el]: (http://www.emacswiki.org/emacs/download/anything-ipython.el)
-[anything-show-completion.el]: (http://www.emacswiki.org/cgi-bin/emacs/download/anything-show-completion.el)
-[anything.el]: (http://www.emacswiki.org/emacs/download/anything.el)
-[anything]: (http://www.emacswiki.org/emacs/Anything)
-[auto complete mode]: (http://cx4a.org/software/auto-complete/)
-[autopair.el]: (http://autopair.googlecode.com/svn/trunk/autopair.el)
-[compilation mode]: (http://www.gnu.org/software/emacs/manual/html_node/emacs/Compilation-Mode.html)
-[demo]: (http://www.youtube.com/watch?v=76Ygeg9miao)
-[directory variable]: (http://www.gnu.org/software/emacs/manual/html_node/emacs/Directory-Variables.html)
-[display google maps]: (http://julien.danjou.info/blog/2010.html)
-[edit videos]: (http://1010.co.uk/gneve.html)
-[emacs code browser]: (http://ecb.sourceforge.net/)
-[exuberant tags]: (http://ctags.sourceforge.net/)
-[features]: (http://www.gnu.org/software/emacs/manual/html_node/emacs/Programs.html)
-[file variable]: (http://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html#Specifying-File-Variables)
-[flymake]: (http://www.emacswiki.org/emacs/FlyMake)
-[git interface]: (http://philjackson.github.com/magit/)
-[here]: (http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/)
-[ipdb package]: (http://pypi.python.org/pypi/ipdb)
-[ipython's website]: (http://ipython.scipy.org/moin/Documentation)
-[ipython.el]: (http://ipython.scipy.org/dist/ipython.el)
-[ipython]: (http://ipython.scipy.org/moin/Documentation)
-[lambda-mode.el]: (http://dishevelled.net/elisp/lambda-mode.el)
-[many ways]: (http://aymanh.com/python-debugging-techniques)
-[paredit]: (http://www.emacswiki.org/emacs/ParEdit)
-[pep8 script]: (http://github.com/jcrocholl/pep8)
-[programming]: (http://www.gnu.org/software/emacs/manual/html_node/emacs/Maintaining.html)
-[pylookup]: (http://taesoo.org/Opensource/Pylookup)
-[python website]: (http://docs.python.org/download.html)
-[python-mode]: (https://launchpad.net/python-mode)
-[python-pep8.el]: (http://gist.github.com/raw/302847/3331473995b55cc578e7d63dd82474749367c29c/python-pep8.el)
-[python-pylint.el]: (http://gist.github.com/raw/302848/60961ad1134e7bec5d836857fb67109245548dad/python-pylint.el)
-[read email, play tetris, act as a file manager]: (http://www.gnu.org/software/emacs/tour/)
-[reimport]: (http://code.google.com/p/reimport/)
-[related]: (http://www.gnu.org/software/emacs/manual/html_node/emacs/Building.html)
-[rope]: (http://rope.sourceforge.net/)
-[ropemacs]: (http://rope.sourceforge.net/ropemacs.html)
-[slime]: (http://common-lisp.net/project/slime/)
-[tags]: (http://www.gnu.org/software/emacs/manual/html_node/emacs/Tags.html)
-[talk]: (http://mail.python.org/pipermail/python-mode/2009-January/000514.html)
-[w3m inside emacs]: (http://emacs-w3m.namazu.org/)
-[window session manager]: (http://www.emacswiki.org/emacs/EmacsLispScreen)
+[Download Yasnippet]: http://yasnippet.googlecode.com/files/yasnippet-bundle-0.6.1c.el.tgz
+[Emacs Wiki]: http://www.emacswiki.org/emacs/PrettySymbol
+[PEP8 style guide]: http://www.python.org/dev/peps/pep-0008/
+[Yasnippet]: http://code.google.com/p/yasnippet/
+[anything-ipython.el]: http://www.emacswiki.org/emacs/download/anything-ipython.el
+[anything-show-completion.el]: http://www.emacswiki.org/cgi-bin/emacs/download/anything-show-completion.el
+[anything.el]: http://www.emacswiki.org/emacs/download/anything.el
+[anything]: http://www.emacswiki.org/emacs/Anything
+[auto complete mode]: http://cx4a.org/software/auto-complete/
+[autopair.el]: http://autopair.googlecode.com/svn/trunk/autopair.el
+[compilation mode]: http://www.gnu.org/software/emacs/manual/html_node/emacs/Compilation-Mode.html
+[demo]: http://www.youtube.com/watch?v=76Ygeg9miao
+[directory variable]: http://www.gnu.org/software/emacs/manual/html_node/emacs/Directory-Variables.html
+[display google maps]: http://julien.danjou.info/blog/2010.html
+[edit videos]: http://1010.co.uk/gneve.html
+[emacs code browser]: http://ecb.sourceforge.net/
+[exuberant tags]: http://ctags.sourceforge.net/
+[features]: http://www.gnu.org/software/emacs/manual/html_node/emacs/Programs.html
+[file variable]: http://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html#Specifying-File-Variables
+[flymake]: http://www.emacswiki.org/emacs/FlyMake
+[git interface]: http://philjackson.github.com/magit/
+[here]: http://www.saltycrane.com/blog/2010/05/my-emacs-python-environment/
+[ipdb package]: http://pypi.python.org/pypi/ipdb
+[ipython's website]: http://ipython.scipy.org/moin/Documentation
+[ipython.el]: http://ipython.scipy.org/dist/ipython.el
+[ipython]: http://ipython.scipy.org/moin/Documentation
+[lambda-mode.el]: http://dishevelled.net/elisp/lambda-mode.el
+[many ways]: http://aymanh.com/python-debugging-techniques
+[paredit]: http://www.emacswiki.org/emacs/ParEdit
+[pep8 script]: http://github.com/jcrocholl/pep8
+[programming]: http://www.gnu.org/software/emacs/manual/html_node/emacs/Maintaining.html
+[pylookup]: http://taesoo.org/Opensource/Pylookup
+[python website]: http://docs.python.org/download.html
+[python-mode]: https://launchpad.net/python-mode
+[python-pep8.el]: http://gist.github.com/raw/302847/3331473995b55cc578e7d63dd82474749367c29c/python-pep8.el
+[python-pylint.el]: http://gist.github.com/raw/302848/60961ad1134e7bec5d836857fb67109245548dad/python-pylint.el
+[read email, play tetris, act as a file manager]: http://www.gnu.org/software/emacs/tour/
+[reimport]: http://code.google.com/p/reimport/
+[related]: http://www.gnu.org/software/emacs/manual/html_node/emacs/Building.html
+[rope]: http://rope.sourceforge.net/
+[ropemacs]: http://rope.sourceforge.net/ropemacs.html
+[slime]: http://common-lisp.net/project/slime/
+[tags]: http://www.gnu.org/software/emacs/manual/html_node/emacs/Tags.html
+[talk]: http://mail.python.org/pipermail/python-mode/2009-January/000514.html
+[w3m inside emacs]: http://emacs-w3m.namazu.org/
+[window session manager]: http://www.emacswiki.org/emacs/EmacsLispScreen
