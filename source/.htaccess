@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^feed  /atom.xml  [R=301,L]
+RewriteRule ^category/(.*)/feed/ /category/$1/atom.xml  [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.pedrokroger\.com$ [NC,OR]  
+RewriteCond %{HTTP_HOST} ^pedrokroger\.com [NC,OR]  
+RewriteCond %{HTTP_HOST} ^www\.pedrokroger\.net$ [NC]  
+RewriteRule ^(.*)$ http://pedrokroger.net/$1 [R=301,L]  
