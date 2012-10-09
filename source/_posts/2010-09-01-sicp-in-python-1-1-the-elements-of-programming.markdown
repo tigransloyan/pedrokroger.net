@@ -4,7 +4,6 @@ date: 2010-09-01 00:00:26
 layout: post
 slug: sicp-in-python-1-1-the-elements-of-programming
 title: 'SICP in Python: 1.1 The Elements of Programming'
-wordpress_id: 282
 categories:
 - python
 - sicp
