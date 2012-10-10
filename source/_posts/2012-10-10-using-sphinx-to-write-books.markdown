@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Sphinx to Write Technical Books"
-date: 2012-09-19 11:35
+date: 2012-10-10 11:35
 comments: true
 categories:
 - python
@@ -20,7 +20,7 @@ I created three themes: a minimalist html theme for previewing the book
 while I was writing (called 'book'), an Epub theme ('epub2'), and a
 mobi theme ('mobi'). Here is a screenshot of the html theme:
 
-![](/images/2012/09/19/sphinx-html.png "sphinx-html")
+![](/images/2012/10/10/sphinx-html.png "sphinx-html")
 
 Besides removing things from the base theme such as the sidebar, I used `@font-face` to define Anonymous Pro as the font for the code examples. I defined the following in my `themes/book/static/default.css_t` (with similar code for for bold, italic, and bold-italic variants):
 
@@ -39,7 +39,7 @@ In `themes/book/theme.conf` I defined Palatino as the body font:
 The ePub theme is very simple. Sphinx comes with a default theme for ePub, but it has some rough edges. For instance, it shows a copyright notice at the
 end of each chapter:
 
-![](/images/2012/09/19/epub-copyright.png "epub-copyright")
+![](/images/2012/10/10/epub-copyright.png "epub-copyright")
 
 Most Sphinx themes extends a basic theme. Since the html for the ePub
 file is very simple, I decided to create the `layout.html` file from scratch,
@@ -49,16 +49,16 @@ my Epub theme is super simple. In the css file I use the same `@font-face` trick
 used in the html theme. I also changed small things, like not showing
 bullets in the Table of Contents:
 
-![](/images/2012/09/19/epub-toc-original.png "epub-toc-original")
+![](/images/2012/10/10/epub-toc-original.png "epub-toc-original")
 
-![](/images/2012/09/19/epub-toc-new.png "epub-toc-new")
+![](/images/2012/10/10/epub-toc-new.png "epub-toc-new")
 
 In the following image you can see the difference between the out-of-the
 box ePub style and my style using pygments and AnonymousPro:
 
-![](/images/2012/09/19/epub-code-original.png "epub-code-original")
+![](/images/2012/10/10/epub-code-original.png "epub-code-original")
 
-![](/images/2012/09/19/epub-code-new.png "epub-code-new")
+![](/images/2012/10/10/epub-code-new.png "epub-code-new")
 
 The mobi theme is very similar to the epub2 style, except it doesn't
 use `@font-face` and the highlighted source code is black and white, since most kindle readers don't support these features.
@@ -72,11 +72,11 @@ To fix this I created custom builders.
 The builder `epub2` is a subclass of the built-in ePub builder. It disables visible links and replaces the `span` tag with `samp` due to the bug I mentioned earlier. By default
 the built-in ePub builder will generate links like this:
 
-![](/images/2012/09/19/epub-link-default.png "epub-link-default")
+![](/images/2012/10/10/epub-link-default.png "epub-link-default")
 
 but I prefer not to show the url:
 
-![](/images/2012/09/19/epub-link-new.png "epub-link-new")
+![](/images/2012/10/10/epub-link-new.png "epub-link-new")
 
 You can see the full builder [here](https://gist.github.com/3212745). A much nicer solution would be to create a [new writer] by subclassing `writers.html.HTMLWriter` and have it emit `samp` directly instead of `span`. However, I could not find a way to make my builder use the new writer without copying a lot of code from the original `HTMLWriter` (and, therefore, negating the benefits of subclassing).
 
@@ -96,7 +96,7 @@ Sphinx makes it really easy to show [code examples] with `literalinclude`, speci
 
 This is very simple and straightforward, but I also wanted an easy way to show examples displaying the usage of a function and the result of its computation, like in the following image:
 
-![](/images/2012/09/19/note-name.png "note name example")
+![](/images/2012/10/10/note-name.png "note name example")
 
 I could just type the code in the python REPL and copy and paste the result, but if the function changes I might need to update the examples manually, which could lead to some examples being outdated or wrong. And code examples that won't run or with mistakes can be a big source of frustration in programming books.
 
