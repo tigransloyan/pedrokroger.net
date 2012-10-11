@@ -4,7 +4,6 @@ date: 2011-09-29 14:37:44
 layout: post
 slug: harmonizing-every-scale-with-python
 title: Harmonizing every scale with Python
-wordpress_id: 458
 categories:
 - python
 ---

@@ -4,7 +4,6 @@ date: 2010-08-31 15:55:59
 layout: post
 slug: sicp-in-python
 title: SICP in Python
-wordpress_id: 274
 categories:
 - python
 - sicp

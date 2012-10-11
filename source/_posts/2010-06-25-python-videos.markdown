@@ -4,7 +4,6 @@ date: 2010-06-25 02:21:48
 layout: post
 slug: python-videos
 title: Python videos
-wordpress_id: 28
 categories:
 - python
 - videos

@@ -4,7 +4,6 @@ date: 2011-04-10 22:35:15
 layout: post
 slug: printing-python-code-with-latex
 title: Printing python code with LaTeX
-wordpress_id: 434
 categories:
 - latex
 - python

@@ -4,7 +4,6 @@ date: 2012-07-26 00:00:27
 layout: post
 slug: music-for-geeks-and-nerds
 title: 'My ebook: Music for Geeks and Nerds'
-wordpress_id: 575
 categories:
 - books
 - python

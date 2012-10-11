@@ -4,7 +4,6 @@ date: 2010-07-15 21:48:25
 layout: post
 slug: configuring-emacs-as-a-python-ide-2
 title: Configuring Emacs as a Python IDE
-wordpress_id: 81
 categories:
 - emacs
 - python

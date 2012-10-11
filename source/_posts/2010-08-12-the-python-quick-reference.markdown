@@ -4,7 +4,6 @@ date: 2010-08-12 14:52:42
 layout: post
 slug: the-python-quick-reference
 title: The Python Quick Reference
-wordpress_id: 249
 categories:
 - latex
 - python

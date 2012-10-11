@@ -4,7 +4,6 @@ date: 2012-03-25 00:09:56
 layout: post
 slug: pycon-2012-was-incredible
 title: PyCon 2012 was incredible
-wordpress_id: 557
 categories:
 - python
 ---
