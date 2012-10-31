@@ -5,6 +5,7 @@ date: 2012-10-10 11:35
 comments: true
 categories:
 - python
+- sphinx
 ---
 
 As I mentioned in a [previous blog post], I used [Sphinx] to write my book, [Music for Geeks and Nerds]. With Sphinx I could generate HTML, Epub, Mobi (for the Kindle), and two PDF versions (black-and-white and color). Sphinx works quite nicely out-of-the-box for documenting computer programs, but I had to bend it a little to generate output more suitable for a book.
