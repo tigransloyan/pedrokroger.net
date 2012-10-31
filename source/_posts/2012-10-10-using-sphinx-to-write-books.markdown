@@ -235,6 +235,7 @@ I'm sorry I don't have a simple one-click-install plugin to make Sphinx generate
 
 Let me know in the comments of similar features you need or things I could have done better.
 
+**Update**: I forgot to mention that I've used the `XeLaTex` engine to be able to use TrueType fonts. That's another reason I unset most LaTeX variables on `conf.py`.
 
 <!-- Links -->
 
