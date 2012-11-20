@@ -1,2 +1,26 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+
+.info, .success, .warning, .error {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding:15px 10px;
+    background-repeat: no-repeat;
+    background-position: 10px center;-moz-border-radius:.5em;
+-webkit-border-radius:.5em;
+border-radius:.5em;
+ 
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.warning {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+
