@@ -42,120 +42,125 @@ I like to be able to answer the following questions:
 
 ## Advantages
 
-There are many advantages to this bizarre behavior:
+To me, the main advantage of tracking your time is focus. I trained
+myself when I start the timer I work on the task at hand and nothing
+else. Not only that, but it makes me think for a second what I'm
+trying to accomplish. Instead of just thinking "I'm going to work on
+my app", I'll be more specific, like "I'm going to close bug #23". I
+like to use a timer that sits on the menubar (see screenshot below).
 
-Focus. It’s a Zen kind of thing
+To be honest, this alone would be a compeling enough reason to track
+my time. Even if I didn't save the data I'd still do it just to help
+me keep focused. But since we do have the data, there are other
+advantages.
 
-Actionable advice (through analysis). It helps to make decisions.
-This is taking to long, kill it (don’t spend too much time on something)
-Do by not doing something else
-Outsource sysadmin
-Don’t waste time with technology (wiki -> gdocs -> scrivener)
+I can use past data to help me making decisions. For instance, if a
+project is taking longer than it should, I can decide to kill it. I do
+this often with scripts that I think I can finish in half hour but end
+up taking hours instead. The flipside is that I'm becoming much better
+at predicting how long something is going to take.
 
-Say no. I’m much better at predicting how long something is going to
-take. For instance, I know that it takes me around 15 hours to write a
-basic project proposal. So when someone ask me to write something I
-can say “I wish I could, but this is going to take about 10 to 15
-hours and I need to work on project X instead”.
+Sort my priorities and say no when necessary. For instance, I know
+that it takes me around 15 hours to write a basic project proposal. So
+when someone asks me to write something I can say “I wish I could, but
+this is going to take about 15 to 20 hours and I need to work on
+project X instead”.
 
-Motivation. “Yay, worked 20 hours on my startup this week”. 
+I'm not big on motivation (I think it's important, but it's hard to
+stay "motivated" all the time), but it's motivational to see how many
+hours you have been putting on your projects.
 
 ## What I Need
 
 There are many different type of programs to log time. Some
 concentrate on tracking the time of tasks, other on tracking billable
-hours and generating fancy billing reports. Following are the things I
-consider essential for myself.
+hours and generating fancy billing reports.
 
-Before I switched to the Mac, I used to use a very nice Gnome applet
-called Hamster [link here]. Unfortunately I haven’t been able to find
-anything close to Hamster for Mac Os. I tried I few, used Toggl for a
-while but now it seems that I’ll write my own app.
+Before I switched to the Mac, I used a very nice Gnome applet called
+[Hamster]. Unfortunately I haven’t been able to find anything similar
+for the Mac. I tried I few, used Toggl for a while but now it seems
+that I’ll have to write my own.
 
-Show on the menubar.
-
-To me this is the most important feature. I like to be able to glance
-at the menubar and see what I’m supposed to be working and for how
-long I’ve been working. In the example below (using Hamster) you can
-see that I’m working on a task called “make examples” and I’ve been
-working on it for the past 27 minutes. You can configure Hamster to
-nag you from time to time with the task name (the black thing in the
-screenshot). Some will find this anoying, but it helps me to keep
-focused. You can, of course, disable it.
+### On the menubar
+To me, the most important feature is to show the task name and
+stopwatch on the menubar. I like to be able to glance at the menubar
+and see what I’m supposed to be working and for how long I’ve been
+working. In the example below (using Hamster) you can see that I’m
+working on a task called “make examples” and I’ve been working on it
+for 27 minutes. You can configure Hamster to nag you from time to time
+with the task name (the black thing in the screenshot). Some will find
+this anoying, but it helps me to keep focused. You can, of course,
+disable it.
 
 ![](../images/2012/11/05/hamster-pokeme.png)
 
+### Pause and Stop
 
-Pause and stop the timer. This one is self-explanatory (but a few
-applications don’t implement it). It’s good to have a global hotkey
-for these actions.
+I like to be able to pause and stop the timer. This is simple but a
+few applications don’t implement this functionality. Extra points to
+have a global hotkey for these actions.
 
-Input and edit past events. I like to be able to rename, change the
-duration and start time, and delete an entry. It’s also very useful to
-be able to input old entries, specially for tasks you’ve performed
-outside the computer. (Minco can’t do this, BTW).
+### Input and edit past events
 
-Work offline. There are a good number of online apps to track time (I
-have even used one for a few months). The obvious advantage is that
-you can access them in different computers and operating systems. But
-since I work mainly from one computer, I prefer to use a program that
-works offline.
+I like to be able to to things like renaming, changing the duration,
+and deleting an entry. It’s also useful to be able to input old
+entries, specially for tasks you’ve performed outside the computer.
+(Believe or not, some apps don't have this feature).
 
-I don’t need any complicated organization thing, just Projects (such
-as “Write post ‘Time tracking for founders’), Tasks (such as “Write
-first draft”), and Categories (such as “Blog”).
+### Work Offline
 
-Nice to have: ical integration
+There are a good number of online apps to track time (I have even used
+one for a few months). The obvious advantage is that you can access
+them in different computers and operating systems. But since I work
+mainly from one computer, I prefer to use a program that works
+offline.
 
-Quick statistics. One thing that I like about Hamster is that it shows
-some basic information on the main screen without the need to go to
-the separate reports window. Notice in the figure below the total time
-for a tag (Blog: 0.7h), the time for the current task (27 min), and
-yellow label with the name of the project.
+### Simple
+
+I don’t need any complicated features, just Projects (such as “Write
+post ‘Time tracking for founders’), Tasks (such as “Write first
+draft”), and Categories (such as “Blog”).
+
+### Quick Statistics
+
+One thing that I like about Hamster is that it shows some basic
+information on the main screen without the need to go to the separate
+reports window. In the following image we can see the total time for a
+category (Blog: 0.7h), the time for the current task (27 min), and the
+project name ("Time tracking for founders").
 
 ![](../images/2012/11/05/hamster-full.png)
 
-Nice entry mode <nome of the task>@<category> and name of the project
-(auto completion)
+## Manual vs. Automatic Time Tracking
 
-![](../images/2012/11/05/hamster-new.png)
+I think that automatic tracking programs such as [RescueTime] are
+great, but they don't help me to answer the questions I want. One
+major problem is one app may have multiple uses. For example, watching
+video on Youtube can be a productive task (lectures, for instance)
+that is part of a project on just a plain distraction. However,
+RescueTime will mark both as distractions.
 
-
-I also use a digital timer I learn from Jim Collins.
-
-![](../images/2012/11/05/timer.png)
-￼
-## Manual vs. automatic
-
-I think that automatic tracking programs such as RescueTime are great,
-but
-
-One app has multiple uses. I can watch lectures on VLC and waiste time
-on VLC
-
-No items by time
-
-Don’t care about comparisson
-
-Doesn’t answer the questions I care about
+Also, automatic time tracking tools re passive (duh! That's their main
+point) and I like to see in real time how long things are taking. As I
+mentioned, it help me to focus.
 
 ## Analysis
 
-Is it reasonable to try to put 20+ hours on my startup if I’ve been
-working only 5 hours a week?
+With more than one year worth of data, I was able to analyze XXXXXX
 
-Optimal number of hours a day (3-1)
+In the following image we can see the amout of time I worked in
+different categories (startup is green, day job is red) over 6 months.
+In the beginning I was trying to work in too many different things at
+once, therefore not focusing on my startup. Also, we can see I used my
+vacation time to do some serious startup work.
 
-![](../images/2012/11/05/hours-by-range.png)
-
-How long startup v. Day job
-What is the general trend of the last weeks?
-￼
 ![](../images/2012/11/05/tasks-no-label.png)
 
-
-What was my most productive day? (Decided to avoid having meetings on
-the MPD, etc)
+Analyzing the data I was able to find what was my most productive
+days. By productive I mean the day I worked more hours on my startup
+over a period of time. Surprisingly, it was Monday and Thursday. I
+tought Wednesday was going to me one of the most productive since I
+usually don't teach on this day:
 
     Mon: 51.05h
     Thu: 40.34h
@@ -165,15 +170,73 @@ the MPD, etc)
     Wed: 19.65h
     Sat: 17.59h
 
-Track energy (waking up late vs early): decision to wakup early
-Energy: first week: less than 10 hours
- second week 18 hours
+Also, after analyzing this data, I gave up tring to be productive on
+Saturdays. Now it's my day off.
+
+But to me the biggest payoff is when I analyze the time I've spent in
+individual projects. For instance, I realized I spent a huge amount of
+time fiddling with tools when I was writing [my book] (I tend to do
+that). The next time I write a book I'll be careful not to do that as
+much.
+
+Of course time is only one metric. Energy level is as import as time,
+as if you have time and no energy you are not going to accomplish
+much. On the other hand, given enough time and energy you can do
+anything you want. Unfortunatelly, tracking energy levels is very
+difficult and invasive. Out of curiosity, I recorded my perceived
+energy level during the day for almost two weeks. Every half-hour I'd
+rate my energy level as:
+
+- 0: sleeping
+- 1: need a nap
+- 2: low energy
+- 3: very good
+- 4: very energetic
+
+Originally I was going to show the following graphic that has the
+average levels for earch week:
 
 ![](../images/2012/11/05/energy-by-hour.png)
 
-## Toggl
+But once I reviewed the data, I realized the graphic with average is
+useless. Look how wild my energy levels were during the two weeks:
 
+![](../images/2012/11/05/energy-level.png)
 
-![](../images/2012/11/05/toggl-task.png)
-![](../images/2012/11/05/toggl-tasks.png)
+I collected this data one year ago and, frankly, I don't know what to
+make of it today. I'm still curious about energy levels, though. Maybe
+I'll do this experiment again.
 
+## What I Use Now
+
+The setup I have now is far from perfect but it's working for me. To
+collect the time I use [StopWatchMenu], a simple app I developed
+myself:
+
+![](../images/2012/11/05/stop-watch-menu.png)
+
+At the end of the day I enter the data in a simple Django app I run
+locally. I use this app to generate reports and analyze the data I
+have:
+
+![](../images/2012/11/05/tracktime.png)
+
+I could implement the stopwatch in the Django app, but I really like
+to have the stopwatch in the menu, as I mentioned previously. I'm
+working on a time tracking for the Mac that I'll combine the two apps.
+Stay tuned ;-)
+
+## Conclusion
+
+time is not the only metric
+energy is important but difficult to track
+it's silly to compare my time to your time
+still worthwhile
+
+<!-- Links -->
+
+[Hamster]: http://projecthamster.wordpress.comparisson
+[Jim Collins]: http://www.nytimes.com/2009/05/24/business/24collins.html
+[Rescuetime]: http://www.rescuetime.com
+[my book]: http://musicforgeeksandnerds.com
+[StopWatchMenu]: https://itunes.apple.com/us/app/stopwatchmenu/id536473057?mt=12
