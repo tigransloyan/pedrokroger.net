@@ -27,7 +27,7 @@ someone or something interrupts me, I'll pause the stopwatch.
 The usual disclaimers apply here; these are the things that work for
 me. You need to find and apply the ones that work for you. Also, keep
 in mind that I have a day job and develop some products on the side.
-In this post I call it "startup" but some people could call it a
+In this post I call it "startup" but some people would call it a
 lifestyle business.
 
 ## The Basic Questions
@@ -48,20 +48,21 @@ of just thinking "I'm going to work on my app", I'll be more specific,
 like "I'm going to close bug #23". It sounds obvious but it's not
 uncommon for me to start one task and jump to another without even
 realizing (and without finishing the first task). Since many tasks are
-connected the jump will feel fluid. This alone would be a compelling
-enough reason to track my time. Even if I didn't save the data, I'd
-still do it just to help me in keeping focused. But since we do have
-the data, there are other advantages as well.
+connected the jump will feel fluid, but I may end up with many
+half-finished tasks at the end of the day. This alone would be a
+compelling enough reason to track my time. Even if I didn't save the
+data, I'd still do it just to help me in keeping focused. But since I
+do have the data, there are other advantages as well.
 
-I can use past data to help me making decisions. For instance, if a
+I can use past data to help me to make decisions. For instance, if a
 project or task is taking longer than it should, I can decide to kill
 it. I do this often with scripts that I think I can finish in half
 hour but end up taking hours instead. The flip side is that I'm
 becoming much better at predicting how long something is going to
 take.
 
-Knowing how long things can take help me to sort my priorities and say
-no when necessary. For instance, I know that it takes me around 15
+Knowing how long things can take helps me to sort my priorities and
+say no when necessary. For instance, I know that it takes me around 15
 hours to write a basic project proposal. So when someone asks me to
 write something I can say “I wish I could, but this is going to take
 about 15 to 20 hours and I need to work on project X instead”.
@@ -96,7 +97,7 @@ time to time with the task name (the black thing in the screenshot).
 Some will find this annoying, but it helps me to keep focused. You can,
 of course, disable it.
 
-![](../images/2012/11/05/hamster-pokeme.png)
+![](/images/2012/11/05/hamster-pokeme.png)
 
 ### Pause and Stop
 
@@ -107,10 +108,10 @@ interruptions.
 
 ### Input and edit past events
 
-I like to be able to to things like renaming and deleting an entry and
-changing the duration. It’s also useful to be able to input old
-entries, specially for tasks you’ve performed outside the computer.
-Believe it or not, some apps don't have this feature.
+It's important to be able to rename, delete, and change the duration
+of an entry. It’s also useful to be able to input old entries,
+specially for tasks I have performed outside the computer. Believe it
+or not, some apps don't have this feature.
 
 ### Work Offline
 
@@ -128,17 +129,18 @@ reports window. In the following image we can see the total time for a
 category (Blog: 0.7h), the time for the current task (27 min), and the
 project name ("Time tracking for founders").
 
-![](../images/2012/11/05/hamster-full.png)
+![](/images/2012/11/05/hamster-full.png)
 
 ## Manual vs. Automatic Time Tracking
 
-I think that automatic time tracking programs such as [RescueTime] are
-great, but they don't help me to answer the questions I want. These
-programs work by recording how long you stay in one program or
-website. One major problem is that one program or website may have
-multiple uses. For example, watching videos on Youtube can be a
-productive task (lectures, for instance) that is part of a project or
-a distraction. However, applications like RescueTime will mark both as
+Automatic time tracking programs such as [RescueTime] are great, but
+they don't help me to answer the questions I want. These programs work
+by recording how long you stay in one program or website. This is
+great to find your major distractions, but one major problem is that
+one program or website may have multiple uses. For example, watching
+videos on Youtube can be a productive task (lectures, screencasts,
+tutorials) that is part of a project or a plain distraction (kittens
+videos FTW!). However, applications like RescueTime will mark both as
 distractions.
 
 Also, automatic time tracking tools are passive (duh! That's their
@@ -158,11 +160,11 @@ I used my vacation time to do some serious startup work. (The original
 image has the number of hours on the Y axis, but I'm not comfortable
 sharing this information.)
 
-![](../images/2012/11/05/tasks-no-label.png)
+![](/images/2012/11/05/tasks-no-label.png)
 
-Analyzing the data I was able to find my most productive day, that is,
-the day I worked consistently more hours on my startup over a period
-of months. Surprisingly, it was Monday:
+I was able to find my most productive day, that is, the day I worked
+consistently more hours on my startup over a period of n months.
+Surprisingly, it was Monday:
 
     Mon: 22.72%
     Thu: 17.95%
@@ -175,20 +177,21 @@ of months. Surprisingly, it was Monday:
 Also, after analyzing this data, I gave up trying to be productive on
 Saturdays. Now it's my day off.
 
-But to me the biggest payoff is when I analyze the time I've spent in
+But to me the biggest payoff is when I analyze the time I've spent on
 individual projects. For instance, I realized I spent a huge amount of
 time fiddling with tools when I was writing [my book] (I tend to do
-that). The next time I write a book I'll be careful not to do that as
-much.
+that). The next time I write a book I'll be careful not to do that (as
+much).
 
 ## Energy Level
 
 Of course time is only one metric. Energy level is as import as time.
 If you have time and no energy you are not going to accomplish much.
 On the other hand, given enough time and energy you can do anything
-you want. Unfortunately, tracking energy levels is very and invasive.
-Out of curiosity, I recorded my perceived energy level during the day
-for almost two weeks. Every half-hour I'd rate my energy level as:
+you want. Unfortunately, tracking energy levels is difficult and
+invasive. Out of curiosity, I recorded my perceived energy level
+during the day for almost two weeks. Every half-hour I'd rate my
+energy level as:
 
 - 0: sleeping
 - 1: need a nap
@@ -199,12 +202,12 @@ for almost two weeks. Every half-hour I'd rate my energy level as:
 Originally I was going to show the following graphic that has the
 average levels for each week:
 
-![](../images/2012/11/05/energy-by-hour.png)
+![](/images/2012/11/05/energy-by-hour.png)
 
 But once I reviewed the data, I realized the graphic above is useless.
 Look how wild my energy levels were during the two weeks:
 
-![](../images/2012/11/05/energy-level.png)
+![](/images/2012/11/05/energy-level.png)
 
 I collected this data one year ago and, frankly, I don't know what to
 make of it today. I'm still curious about energy levels, though. Maybe
@@ -212,23 +215,25 @@ I'll do this experiment again.
 
 ## What I Use Now
 
-The setup I have now is far from perfect but it's working for me. To
+The setup I have now it's not perfect but it's working for me. To
 collect the time I use [StopWatchMenu], a simple Mac app that I
 developed myself. It sits on the menubar and allows me to enter and
 pause tasks:
 
-![](../images/2012/11/05/stop-watch-menu.png)
+![](/images/2012/11/05/stop-watch-menu.png)
 
-At the end of the day I enter the data in a simple Django app I run
-locally. I use this app to generate reports and analyze the data I
-have:
+At the end of the day I enter the data in a simple Django app I hacked
+together (I run it locally). I use this app to generate reports and
+analyze the data I have:
 
-![](../images/2012/11/05/tracktime.png)
+![](/images/2012/11/05/tracktime.png)
 
-I don't like to use two apps to track my time. I could continue to
-develop the Django app and implement the stopwatch on it, but I really
-like to have the stopwatch in the menubar. I'm working on a time
-tracking for the Mac that I'll combine the two apps. Stay tuned ;-)
+Naturally, I'd like to have one single app for all my time tracking
+purposes. I couldn't find one Mac application that works the way I
+want and generates the reports I care about. Even Hamster doesn't
+generate the reports I want; when I was using it I'd export the data
+and use a Python script to generate reports. I'll probably develop my
+own application.
 
 ## Conclusion
 
@@ -236,15 +241,22 @@ I'm fully aware that time is not the only metric; what counts is
 results. But tracking my time has been beneficial, not intrusive and
 it helps with procrastination and focus. Usually I don't like to say
 how much time I've spent on things because, in my experience, people
-who don't track time don't have the slightest idea how long things
-makey take (specially for long projects) and may misinterpret the data
+who don't track time don't have the slightest idea of how long things
+may take (specially for long projects) and may misinterpret the data
 (if I tell you how long I've spent building my first product you'd
-flip out ;-) Finally, I use the informating to give me the order of
-how long projects may take. Some projects will need the order of a
-couple dozen hours while others the order of one hundred hours.
+flip out ;-)
+
+Finally, I don't necessarily care about the precise duration of a
+project, down to the minute. I like to know the order of time a
+project took to be accomplished. Some projects will need the order of
+a couple dozen hours while others the order of one hundred hours. So
+even if I didn't track every single minute I was working on a project
+(I don't track the time I'm having ideas on the shower or on a long
+walk) I still get a decent estimate of how much time was necessary to
+complete a project and how much time I may need for similar projects.
 
 Let me know in the comments how tracking your time has helped you and
-if you have a good solution to track energy level.
+if you have a good solution to track energy levels.
 
 <!-- Links -->
 
