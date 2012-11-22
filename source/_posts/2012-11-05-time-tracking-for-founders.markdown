@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Time Tracking for Founders"
-date: 2012-11-05 13:21
+date: 2012-11-22 11:04
 comments: true
 categories: 
 ---
@@ -97,7 +97,7 @@ time to time with the task name (the black thing in the screenshot).
 Some will find this annoying, but it helps me to keep focused. You can,
 of course, disable it.
 
-![](/images/2012/11/05/hamster-pokeme.png)
+![](/images/2012/11/22/hamster-pokeme.png)
 
 ### Pause and Stop
 
@@ -129,7 +129,7 @@ reports window. In the following image we can see the total time for a
 category (Blog: 0.7h), the time for the current task (27 min), and the
 project name ("Time tracking for founders").
 
-![](/images/2012/11/05/hamster-full.png)
+![](/images/2012/11/22/hamster-full.png)
 
 ## Manual vs. Automatic Time Tracking
 
@@ -160,7 +160,7 @@ I used my vacation time to do some serious startup work. (The original
 image has the number of hours on the Y axis, but I'm not comfortable
 sharing this information.)
 
-![](/images/2012/11/05/tasks-no-label.png)
+![](/images/2012/11/22/tasks-no-label.png)
 
 I was able to find my most productive day, that is, the day I worked
 consistently more hours on my startup over a period of n months.
@@ -202,12 +202,12 @@ energy level as:
 Originally I was going to show the following graphic that has the
 average levels for each week:
 
-![](/images/2012/11/05/energy-by-hour.png)
+![](/images/2012/11/22/energy-by-hour.png)
 
 But once I reviewed the data, I realized the graphic above is useless.
 Look how wild my energy levels were during the two weeks:
 
-![](/images/2012/11/05/energy-level.png)
+![](/images/2012/11/22/energy-level.png)
 
 I collected this data one year ago and, frankly, I don't know what to
 make of it today. I'm still curious about energy levels, though. Maybe
@@ -220,13 +220,13 @@ collect the time I use [StopWatchMenu], a simple Mac app that I
 developed myself. It sits on the menubar and allows me to enter and
 pause tasks:
 
-![](/images/2012/11/05/stop-watch-menu.png)
+![](/images/2012/11/22/stop-watch-menu.png)
 
 At the end of the day I enter the data in a simple Django app I hacked
 together (I run it locally). I use this app to generate reports and
 analyze the data I have:
 
-![](/images/2012/11/05/tracktime.png)
+![](/images/2012/11/22/tracktime.png)
 
 Naturally, I'd like to have one single app for all my time tracking
 purposes. I couldn't find one Mac application that works the way I
