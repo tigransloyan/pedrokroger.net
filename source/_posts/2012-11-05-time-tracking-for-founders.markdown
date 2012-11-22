@@ -4,6 +4,8 @@ title: "Time Tracking for Founders"
 date: 2012-11-22 11:04
 comments: true
 categories: 
+- startup
+- productivity
 ---
 
 How many hours have you worked on your Minimum Viable Product (MVP) in

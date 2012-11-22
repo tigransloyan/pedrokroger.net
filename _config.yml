@@ -110,3 +110,6 @@ google_analytics_tracking_id: UA-5758275-2
 
 # Facebook Like
 facebook_like: false
+
+# hacker news
+hn_like_button: true
