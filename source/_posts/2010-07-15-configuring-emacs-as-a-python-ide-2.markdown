@@ -15,6 +15,8 @@ techniques here will not work with new Emacs versions. I'll leave this post as
 a historical reference.
 </p>
 
+There is a [translation](http://science.webhostinggeeks.com/konfigurisanje-emacs) of this post in Serbo-Croatian language (thanks to Anja Skrba).
+
 Emacs is a huge beast. It can
 [read email, play tetris, act as a file manager],
 [display google maps], and even [edit videos]. It has support for
