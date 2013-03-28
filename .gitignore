@@ -13,3 +13,5 @@ source/stylesheets/screen.css
 vendor
 node_modules
 .preview-mode
+
+/.rake_t_cache

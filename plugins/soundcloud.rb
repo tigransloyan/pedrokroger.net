@@ -72,7 +72,7 @@ module Jekyll
 
     def render(context)
       if @type and @id
-        @height = (500 unless @type == 'tracks') || 166
+        @height = (650 unless @type == 'tracks') || 166
         @resource = (@type unless @type === 'favorites') || 'users'
         @extra = ("" unless @type === 'favorites') || '%2Ffavorites'
         @joined_options = @options.join("&amp;")
