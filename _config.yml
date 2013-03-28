@@ -51,6 +51,7 @@ titlecase: true       # Converts page and post titles to titlecase
 default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, 
                  asides/delicious.html, asides/pinboard.html, asides/googleplus.html,
                  custom/asides/mfgan.html,
+                 custom/asides/kala.html,
                  custom/asides/about.html, 
                 ]
 
@@ -62,6 +63,7 @@ post_asides: [
             custom/asides/related.html,
             asides/recent_posts.html,
             custom/asides/mfgan.html,
+            custom/asides/kala.html,
             custom/asides/about.html,
             ]
 # page_asides:
