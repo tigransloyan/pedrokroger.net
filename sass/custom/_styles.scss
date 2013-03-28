@@ -2,14 +2,14 @@
 // Add styles here to make changes without digging in too much
 
 
-.info, .success, .warning, .error {
+.info, .success, .warning, .error, .subscribe {
     border: 1px solid;
     margin: 10px 0px;
     padding:15px 10px;
     background-repeat: no-repeat;
     background-position: 10px center;-moz-border-radius:.5em;
--webkit-border-radius:.5em;
-border-radius:.5em;
+    /* -webkit-border-radius:.5em; */
+    /* border-radius:.5em; */
  
 }
 
@@ -23,4 +23,8 @@ border-radius:.5em;
     background-color: #FFBABA;
 }
 
-
+.subscribe {
+    color: #00529B;
+    background-color: #FBFBCB;
+    border-color: #E5E597;
+}
