@@ -55,6 +55,7 @@ default_asides: [
                  custom/asides/mfgan.html,
                  custom/asides/kala.html,
                  custom/asides/about.html, 
+                 custom/asides/category_list.html,
                 ]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
@@ -68,6 +69,7 @@ post_asides: [
             custom/asides/mfgan.html,
             custom/asides/kala.html,
             custom/asides/about.html,
+            custom/asides/category_list.html,
             ]
 # page_asides:
 
