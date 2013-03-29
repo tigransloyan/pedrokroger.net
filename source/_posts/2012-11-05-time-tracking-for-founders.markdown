@@ -234,8 +234,10 @@ Naturally, I'd like to have one single app for all my time tracking
 purposes. I couldn't find one Mac application that works the way I
 want and generates the reports I care about. Even Hamster doesn't
 generate the reports I want; when I was using it I'd export the data
-and use a Python script to generate reports. I'll probably develop my
-own application.
+and use a Python script to generate reports. <strike>I'll probably
+develop my own application</strike>. **EDIT:**
+[Kala, my time tracking app](/2013/03/kala-my-time-tracking-app/) is
+available!
 
 ## Conclusion
 
