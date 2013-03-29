@@ -19,3 +19,5 @@ The second composition, "Noite no Trapiche" (Night at the Cane sugar mill), is a
 <iframe width="560" height="315" src="http://www.youtube.com/embed/F4L2V6y3-HU" frameborder="0" allowfullscreen></iframe>
 
 It's been a while since my last composition. I've been busy teaching, researching, and programming, but it's sure good to be back as a composer ;-)
+
+If you enjoyed these pieces you may want to check my [other compositions](/compositions.html).

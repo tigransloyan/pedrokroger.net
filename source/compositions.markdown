@@ -5,7 +5,8 @@ slug: compositions
 title: Compositions
 ---
 
-In this page your can listen and download the music score of some of my compositions.
+In this page your can listen (via SoundCloud) and download the score
+of some of my compositions.
 
 {% soundcloud playlists 3356036 height=650 %}
 
