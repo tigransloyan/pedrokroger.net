@@ -268,4 +268,4 @@ if you have a good solution to track energy levels.
 [Jim Collins]: http://www.nytimes.com/2009/05/24/business/24collins.html
 [Rescuetime]: http://www.rescuetime.com
 [my book]: http://musicforgeeksandnerds.com
-[StopWatchMenu]: https://itunes.apple.com/us/app/stopwatchmenu/id536473057?mt=12
+[StopWatchMenu]: https://itunes.apple.com/app/stopwatchmenu/id536473057?mt=12

@@ -37,4 +37,4 @@ There are still a few bugs to fix and features to add, such as iCloud
 support and invoice generation, but I am happy with the result so far.
 I am also working on a version for the iPhone.
 
-Kala is available on the [App Store](https://itunes.apple.com/us/app/kala-time-tracker/id604849943).
+Kala is available on the [App Store](https://itunes.apple.com/app/kala-time-tracker/id604849943).
