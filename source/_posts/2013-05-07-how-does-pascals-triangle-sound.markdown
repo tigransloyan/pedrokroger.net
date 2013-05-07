@@ -6,12 +6,24 @@ comments: true
 categories: 
 ---
 
-Before we combine the music primitives we have seen in chapter
-:ref:`primitives-music`, let’s generate some music randomly to have an
-idea of how it sounds.
+The idea of transforming a mathematical sequence into sound may sound
+(no pun intended, but I'll take it) strange at first, but people have
+been doing it for ages. In this post we will generate some music
+randomly to have and idea of how it sounds and then we will see how
+sequences like Fibonacci and Pascal's triangle sound.
 
-You can find all code and examples for free
-[here](http://musicforgeeksandnerds.com/resources.html).
+This post is taken from
+[Music for Geeks and Nerds](http://musicforgeeksandnerds.com). You can
+find all code and examples for free
+[here](http://musicforgeeksandnerds.com/resources.html). I use the
+open source [pyknon](https://github.com/kroger/pyknon) library to
+generate the music examples. This
+[free chapter](https://s3.amazonaws.com/musicforgeeksandnerds.com/Pyknon+from+Music+for+Geeks+and+Nerds.pdf)
+explains how to use `pyknon`.
+
+tl;dr: Random music sounds bad, Pascal's triangle sounds great!
+
+<!-- more -->
 
 The functions discussed in this section are in the file
 `random_combination.py`. This file has a few utilities functions
@@ -43,16 +55,18 @@ def random_notes(pitch_list, octave, duration,
 
 
 In the following example we want to generate five notes from the
-chromatic scale, in any octave from five to six, with quarter note,
-eighth note, or sixteenth note durations:
+[chromatic scale](http://en.wikipedia.org/wiki/Chromatic_scale), in
+any octave from five to six, with quarter note, eighth note, or
+sixteenth note durations:
 
 ``` python
 >>> random_notes(range(0, 12), range(5, 7), [0.25, 0.5, 1], 5)
 <Seq: [<A>, <B>, <C#>, <A#>, <F#>]>
 ```
 
-In the following example we generate random notes from the pentatonic
-scale, in the central octave, with a duration of an eighth note:
+In the following example we generate random notes from the
+[pentatonic scale](http://en.wikipedia.org/wiki/Pentatonic_scale), in
+the central octave, with a duration of an eighth note:
 
 ``` python
 >>> random_notes([0, 2, 4, 7, 9], 5, 0.5, 5)
@@ -87,7 +101,7 @@ it, we'll still love you.
 
 
 Now let's add some restrictions. We'll generate the same hundred
-random notes from the chromatic scale, but this time with a smaller
+random notes from the chromatic scale, but this time within a smaller
 range and with only two durations:
 
 ``` python
@@ -125,7 +139,7 @@ def random3():
 By having only one note value and a very recognizable scale, this
 example may sound the most familiar to you.
 
-Naturaly, nobody can tell how you should listen to things. Maybe
+Naturally, nobody can tell how you should listen to things. Maybe
 `random1` was the example you liked the best. However, one important
 point here is that random music almost never sounds good or
 familiar. Repetition and constraints are important.
@@ -155,11 +169,11 @@ def play_list(pitch_list, octave_list, duration,
     return result
 ```
 
-Now let’s see how Fibonacci’s sequence and Pascal’s triangle
-sound. Pascal's triangle is an array of the binomial coefficients that
-has all kinds of neat properties. Check `Pascal's Triangle And Its
-Patterns <http://ptri1.tripod.com/>`_ for more. Here are the first six
-rows::
+Now let’s see how Fibonacci’s sequence and Pascal’s triangle sound.
+Pascal's triangle is an array of the binomial coefficients that has
+all kinds of neat properties. Check
+[Pascal's Triangle And Its Patterns](http://ptri1.tripod.com) for
+more. Here are the first six rows:
 
           1
          1 1
@@ -222,5 +236,5 @@ that repetition is good.
 
 Input your favorite integer sequence in `play_list` and see how it
 sounds. If you don’t have a favorite integer sequence, go to The
-On-Line Encyclopedia of Integer Sequences (https://oeis.org/) and pick
-one. What kind of person doesn't have a favorite integer sequence?
+[On-Line Encyclopedia of Integer Sequences](https://oeis.org/) and
+pick one.
