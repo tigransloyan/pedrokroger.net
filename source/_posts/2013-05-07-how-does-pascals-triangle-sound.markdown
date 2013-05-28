@@ -3,7 +3,9 @@ layout: post
 title: "How Does Pascal's Triangle Sound?"
 date: 2013-05-07 15:47
 comments: true
-categories: 
+categories:
+- python
+- music
 ---
 
 The idea of transforming a mathematical sequence into sound may sound
