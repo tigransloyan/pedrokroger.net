@@ -83,7 +83,7 @@ You can see the full builder [here](https://gist.github.com/3212745). A much nic
 
 ## The mobi Builder
 
-I created a mobi builder by copying the epub builder from Sphinx and making the necessary changes. Maybe I could have subclassed it (I've seen a mobi builder on github that did that), but I wanted to have separate configuration options for the mobi file, such as `mobi_cover`. It uses Amazon's [kindlegen] to convert the html pages to the mobi format.
+I created a [mobi builder](https://gist.github.com/kroger/5866756) by copying the epub builder from Sphinx and making the necessary changes. Maybe I could have subclassed it (I've seen a mobi builder on github that did that), but I wanted to have separate configuration options for the mobi file, such as `mobi_cover`. It uses Amazon's [kindlegen] to convert the html pages to the mobi format.
 
 ## Code examples
 

@@ -95,7 +95,7 @@ And this is the result:
 
 Pretty neat huh? I believe that reviewing my code on paper has save me
 hours of work and I find listings to be a very good option to print
-source code. I added a full LaTeX template [here].
+source code. I added a full LaTeX template [here](https://gist.github.com/kroger/6140188).
 
 Do you print your source code? If so, what tool do you use? Let me
 know in the comments.
