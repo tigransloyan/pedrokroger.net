@@ -3,7 +3,9 @@ layout: post
 title: "Converting MIDI Files to MP3 on the Mac OS"
 date: 2013-08-12 15:02
 comments: true
-categories: 
+categories:
+- music
+- mac
 ---
 
 I often need to convert a bunch of MIDI files to MP3 for teaching and
