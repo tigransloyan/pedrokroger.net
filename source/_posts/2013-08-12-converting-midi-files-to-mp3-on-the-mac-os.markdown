@@ -9,14 +9,17 @@ categories:
 ---
 
 I often need to convert a bunch of MIDI files to MP3 for teaching and
-lecturing. I used to use the venerable Timidity++ on Linux, but since
-switching to the Mac I could never quite get it to work. There are a
-few commercial graphical apps for the Mac and you can even use
-Garageband, but I always wanted to be able to convert MIDI files using
-the command line since it's easier and I can automate the whole
-process.
+lecturing. <del>I used to use the venerable Timidity++ on Linux, but
+since switching to the Mac I could never quite get it to work.</del>
+There are a few commercial graphical apps for the Mac and you can even
+use Garageband, but I always wanted to be able to convert MIDI files
+using the command line since it's easier and I can automate the whole
+process. On the Mac we can use Timidity++ or Fluidsynth, both
+available using [homebrew](http://brew.sh).
 
 <!-- more -->
+
+## Fluidsynth
 
 The easiest way to generate a MP3 from a MIDI on the Mac is by using
 [fluidsynth](https://sourceforge.net/apps/trac/fluidsynth/). You can
@@ -51,3 +54,26 @@ parameters and you should be good to go:
 If you are lazy, check this
 [bash script](https://gist.github.com/kroger/6211862). It accepts
 multiple MIDI files and removes the intermediate WAV file.
+
+## Timidity++
+
+Timidity++ is my go to program when using Linux and I'm super happy
+it's available on [homebrew](http://brew.sh).
+
+    brew install timidity
+
+
+You may need to create a configuration file at
+`/usr/local/Cellar/timidity/2.14.0/share/timidity/timidity.cfg` and
+list where your SoundFonts are. For instance, in my `timidity.cfg` file I have:
+
+    soundfont /Users/kroger/Dropbox/Sfonts/Steinway-Grand-Piano1.2.sf2
+
+
+You can read more about the configuration format by using its man page:
+
+    man timidity.cfg
+
+
+There you go. We have two ways to convert MIDI files to MP3 on the Mac
+using free software.
