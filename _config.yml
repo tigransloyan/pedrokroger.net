@@ -53,7 +53,7 @@ default_asides: [
                  asides/recent_posts.html, 
                  # asides/github.html, asides/twitter.html, 
                  custom/asides/mfgan.html,
-                 custom/asides/kala.html,
+                 #custom/asides/kala.html,
                  custom/asides/about.html, 
                  custom/asides/category_list.html,
                 ]
@@ -67,7 +67,7 @@ post_asides: [
             custom/asides/related.html,
             asides/recent_posts.html,
             custom/asides/mfgan.html,
-            custom/asides/kala.html,
+            #custom/asides/kala.html,
             custom/asides/about.html,
             custom/asides/category_list.html,
             ]
